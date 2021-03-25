@@ -20,7 +20,7 @@ const FlowerCart: React.FC<FlowerCart> = ({
   timestamp,
 }) => {
   return (
-    <div className="w-full max-w-sm mt-2 ml-2 overflow-hidden bg-white border rounded shadow">
+    <div className="flex-initial max-w-sm mt-2 ml-2 overflow-hidden bg-white border rounded shadow xl:w-1/3 md:w-1/3 sm:w-1/3 lg:w-1/3">
       <div className="relative">
         <div
           className="h-48 bg-center bg-no-repeat bg-cover"
